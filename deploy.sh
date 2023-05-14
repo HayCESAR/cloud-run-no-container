@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-GOOGLE_PROJECT_ID=<Enter your Google project ID here>
+GOOGLE_PROJECT_ID="staiproject"
 
 gcloud beta run deploy my-api --source . \
   --platform managed \
